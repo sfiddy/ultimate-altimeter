@@ -13,9 +13,9 @@ The i<sup>2</sup>C Precision Altimeter (also known as the SparkFun Altitude/Pres
 ### Where is the data being stored? 
 
 The data is stored within the registers of the Altimeter. There are 3 storage modes available:
-* Polling - 
+* Polling -  
 * Interupt - New data is overrides any data in the register when an event determined by the programmer occurs. 
-* FIFO - the unit periodically captures data in set intervals determined by the programmer. 
+* FIFO - The unit periodically captures data in set intervals determined by the programmer. 
 
 #### Possible Wireless transmission
 
@@ -34,15 +34,15 @@ As stated in Electric Imp's private policy:
 
 > ***Customer Intellectual Property** You own all right, title and interest in and to Customer Data, the Firmware and Agents created by you, and all related Intellectual Property Rights.*
 
-
-### Is the data available to the user, and if so, in what format?
-
-### How far can you trace the path of the data? 
+### Is the data available to the user, and if so, in what format? 
 ![Electric Imp Data path](/images/ElectricImp_DataPath.png)
-If transmitting the data wirelessly using the *Electric Imp*, the data is first sent either to the BlinkUp mobile app, or the Imp Cloud. 
+The sensor outputs from the Altimeter are converted from an analog signal to a digital signal. If transmitting the data wirelessly using the *Electric Imp*, the data is first sent either to the BlinkUp mobile app, or the Imp Cloud. The data is then transmitted through the impCloud server. A designated parking website can poll an http request to the redboard via the imCloud server. For the purposes of my concept, you only need to store the altitude value stored from the previous reading. 
+ 
 
 ### How far can you trace the physical development of the device, its materials and manufacture?
 ![Data path](/images/DataPath.png)
+
+
 
 <a id="note1" href="#note1ref"><sup>1</sup></a> https://cdn.sparkfun.com/datasheets/Sensors/Pressure/MPL3115A2.pdf
 
@@ -50,7 +50,6 @@ If transmitting the data wirelessly using the *Electric Imp*, the data is first 
 
 <a id="note3" href="#note3ref"><sup>3</sup></a> https://learn.sparkfun.com/tutorials/arduino-wireless-communication-via-the-electric-imp
 
-<a id="note4" href="#not43ref"><sup>4</sup></a> https://electricimp.com/privacy/
+<a id="note4" href="#not4ref"><sup>4</sup></a> https://electricimp.com/terms/
 
-
-[2]: http://www.instructables.com/id/The-Ultimate-Altimeter-A-compact-Arduino-altimeter/
+<a id="note5" href="#not5ref"><sup>5</sup></a> http://blog.electricimp.com/post/162934055170/electric-imp-announces-secure-high-performance
