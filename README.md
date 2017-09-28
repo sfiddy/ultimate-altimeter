@@ -1,4 +1,4 @@
-# i<sup>2</sup>C Precision Altimeter
+# i<sup>2</sup>C Precision Altimeter & The Electric Imp
 
 ![Ultimate Precision Altimeter Board](/images/Ultimate_Altimeter_Board.png)
 
@@ -11,7 +11,15 @@ The i<sup>2</sup>C Precision Altimeter (also known as the SparkFun Altitude/Pres
 <a href="#note2" id="note2ref"><sup>2</sup></a>
 
 ### Where is the data being stored?
+![Electric Imp](/images/ElectricImp_Composite.png) 
+Using the WiFi enabled development platform, *"Electric Imp"*, the data collected from the Altimeter is transmitted wirelessly and stored in ...
+
+
+The unit can be programmed to periodically capture Altitude/Pressure and Temperature data. Up to 32 data acquisitions can
+be stored in the internal FIFO. The interval between acquisitions is programmable from 1 second to 9 hours. The registers embedded inside the device are accessed through an I2C serial interface.
+
 ### Who has ownership over the data? 
+
 ### Is the data available to the user, and if so, in what format?
 
 [2]: http://www.instructables.com/id/The-Ultimate-Altimeter-A-compact-Arduino-altimeter/
