@@ -1,6 +1,6 @@
 # i<sup>2</sup>C Precision Altimeter
 
-![Ultimate Precision Altimeter Board](ultimate-altimeter/images/Ultimate_Altimeter_Board.png)
+![Ultimate Precision Altimeter Board](/images/Ultimate_Altimeter_Board.png)
 
 ### What kind of data is this device collecting?
 The i<sup>2</sup>C Precision Altimeter (also known as the SparkFun Altitude/Pressure Sensor Breakout) is an arduino controlled sensor that provides accurate accurate Pressure/Altitude and Temperature data.
