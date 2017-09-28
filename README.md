@@ -41,10 +41,8 @@ As stated in Electric Imp's private policy:
 ![Electric Imp Data path](/images/ElectricImp_DataPath.png)
 If transmitting the data wirelessly using the *Electric Imp*, the data is first sent either to the BlinkUp mobile app, or the Imp Cloud. 
 
-
-
 ### How far can you trace the physical development of the device, its materials and manufacture?
-
+![Data path](/images/DataPath.png)
 
 <a id="note1" href="#note1ref"><sup>1</sup></a> https://cdn.sparkfun.com/datasheets/Sensors/Pressure/MPL3115A2.pdf
 
